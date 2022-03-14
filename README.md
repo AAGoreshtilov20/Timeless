@@ -1,14 +1,14 @@
 <h1 align="center">History and Geography Project</h1>
 <h2 align="center">Timeless</h6>
 <p align="center">
-<img src="https://media.discordapp.net/attachments/950443893671989328/952621584802275418/Untitled.png" width="500px">
+<img src="" width="500px">
 </p>
 
 
 ## ![image](https://user-images.githubusercontent.com/85336805/156881710-58bfc307-914b-4620-8ada-5b0decbdac77.png) ![image](https://user-images.githubusercontent.com/85336805/156881728-6df99c24-8398-4f77-9300-640336fbf852.png) Team Members:
 * **Anton Goreshtilov** - *Scrum trainer* 
 * **Daniel Mihalev** - *Designer* 
-* **Nikolay Zabirov** - *Frontend Developer* 
+* **Nikolai Zabirov** - *Frontend Developer* 
 * **Ysmen Osman** - *Backend Developer* 
 
 
