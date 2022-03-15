@@ -18,7 +18,6 @@
     <img src="https://img.icons8.com/color/48/000000/html-5.png"/> 
     <img src="https://img.icons8.com/color/48/000000/css3.png"/> 
     <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"/>
- <img src="https://img.icons8.com/fluency/48/000000/visual-studio-2019.png"/>
     
 ## ![image](https://user-images.githubusercontent.com/85336805/156881781-bb34e399-798a-443f-b7a6-8f67573a7310.png) Description:
     
