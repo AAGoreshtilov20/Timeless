@@ -14,7 +14,7 @@ y.style.left='450px';
 z.style.left='0px';
 }
 
-  var modal = document.getElementById('login-form');
+  var modal = document.getElementById('login-wrapper');
   window.onclick = function(event) 
   {
       if (event.target == modal) 

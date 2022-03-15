@@ -22,38 +22,39 @@
         <h1>Timeless</h1>
       </div>
         
-      <a href="#home" >Home</a>
+      <a href="#carousel-container" >Home</a>
       <a href="#services" >Services</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>    
-      <a><button class="loginbtn" onclick="document.getElementById('login-form').style.display='block'">Login</button></a>
+      <a><button class="loginbtn" onclick="document.getElementById('login-wrapper').style.display='block'">Login</button></a>
 
-    <div id="login-form">
-      <div class="form-box">
-            <div class="button-box">
-              <div id="btn"></div>
-              <button type='button'onclick='login()'class="toggle-btn">Log In</button>
-              <button type='button'onclick='register()'class="toggle-btn">Register</button>
-            </div>
+    <div id="login-wrapper">
+      <div id="login-form">
+        <div class="form-box">
+              <div class="button-box">
+                <div id="btn"></div>
+                <button type='button'onclick='login()'class="toggle-btn">Log In</button>
+                <button type='button'onclick='register()'class="toggle-btn">Register</button>
+              </div>
 
-          <form id="login" class="input-login">
-            <input class="input-field" placeholder="Email" required >
-            <input class="input-field"placeholder="Enter Password" required>
-            <input type='checkbox'class="check-box"><span>Remember Password</span>
-            <button class="submit-btn">Log in</button>
-          </form>
+            <form id="login" class="input-login">
+              <input class="input-field" placeholder="Email" required >
+              <input class="input-field"placeholder="Enter Password" required>
+              <input type='checkbox'class="check-box"><span>Remember Password</span>
+              <button class="submit-btn">Log in</button>
+            </form>
 
 
-          <form id="register" class="input-register">
-            <input class="input-field"placeholder="First Name" required>
-            <input class="input-field"placeholder="Last Name" required>
-            <input class="input-field"placeholder="Email" required>
-            <input class="input-field"placeholder="Enter Password" required>
-            <input class="input-field"placeholder="Confirm Password"  required>
-            <input type='checkbox'class="check-box"><span>I agree to the terms and conditions</span>
-            <button class="submit-btn">Register</button>
-          </form>
-          
+            <form id="register" class="input-register">
+              <input class="input-field"placeholder="First Name" required>
+              <input class="input-field"placeholder="Last Name" required>
+              <input class="input-field"placeholder="Email" required>
+              <input class="input-field"placeholder="Enter Password" required>
+              <input class="input-field"placeholder="Confirm Password"  required>
+              <input type='checkbox'class="check-box"><span>I agree to the terms and conditions</span>
+              <button class="submit-btn">Register</button>
+            </form>
+        </div>
       </div>
     </div>
     
