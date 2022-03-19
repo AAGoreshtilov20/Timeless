@@ -24,3 +24,17 @@ function nextPage()
         document.getElementById("b").innerHTML = " ";
     }
 }
+function useHint() {
+    if(hints > 0)
+    {
+        hints -= 1;
+        document.getElementById("hints").innerHTML = hints;
+        document.getElementById("maxHints").innerHTML = maxHints;
+    }
+    else
+    {
+        document.getElementById("a").innerHTML = "No more hints";
+        document.getElementById("b").innerHTML = " ";
+    }
+
+}
