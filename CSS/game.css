@@ -1,1 +1,44 @@
+#game
+{
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+}
+#questionCounter
+{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+#allHint
+{
+    align-items: right;
+    display: flex;
+    justify-content: right;
+    margin: auto;
+}
+#hint
+{
+    height: 80px;
+    display: flex;
+    justify-content: right;
+    margin: auto;
+}
+#input
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+#buttons
+{
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
