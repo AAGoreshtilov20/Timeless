@@ -428,6 +428,43 @@ span
 }
 /* End Slide Animation*/
 
+/* Hero Section */
+.carousel-container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 1000px;
+}
+
+#prevBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    left: 5%;
+    font-size: 30px;
+    color: white;  
+    cursor: pointer;
+}
+
+#nextBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* End Hero Section */
+
 
 
 
