@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="JS/game.js"></script>
+    <link rel="CSS/stylesheet" href="game.css">
+</head>
+<body>
+       <div id = "game">
+        <div id ="questionCounter">
+            <h1>Въпрос № <a id ="question">1</a></h1>
+        </div>
+         <div id ="allHint">
+            <p id = "a">All hints:<a id = "maxHints">6</a></p>
+        </div>
+        <div id ="hint">
+            <p id = "b">hints:<a id = "hints">2</a></p>
+        </div>
+           <div id ="input">
+            <input id = "answer" placeholder="Въведете отговора си">
+            
+        </div>
+        <div id ="buttons">
+            <button onclick="getAnswer()" id = "btn">Отговори</button>
+            <button onclick="useHint()" id = "button">Помощ</button>
+            <button onclick="nextPage()" id = "button">Следващ</button>
+        </div>
+        </div>
+    </div>
+    
+</body>
+</html>
