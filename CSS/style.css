@@ -465,31 +465,209 @@ span
 
 /* End Hero Section */
 
+/* Projects section */
+.title{
+	color: black;
+	margin-top: 100px;
+	font-size: 50px;
+}
+.projects {
+	flex-direction: column;
+	max-width: 70%;
+	margin: 0 auto;
+	padding-bottom: 200px;
+}
+.projects-header h1 {
+	margin-bottom: 50px;
+}
+.project1 {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	bottom: -75px;
+	left: -333px;
+	top: 0;
+}
+.project2 {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	bottom: -75px;
+	left: -333px;
+	bottom: -435px;
+}
+.project3 {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	bottom: -75px;
+	left: -333px;
+	bottom: -870px;
+}
+
+.project4 {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	bottom: -75px;
+	left: -333px;
+	bottom: -1305px;
+}
+.project5 {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	bottom: -75px;
+	left: -333px;
+	bottom: -1305px;
+}
+.project6 {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	bottom: -75px;
+	left: -333px;
+	bottom: -1305px;
+}
+.project7 {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	bottom: -75px;
+	left: -333px;
+	bottom: -1305px;
+}
+.project8 {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	bottom: -75px;
+	left: -333px;
+	bottom: -1305px;
+}
+
+.project-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 10px auto;
+	overflow: hidden;
+	border-radius: 10px;
+	height: 400px;
+	width: 100%;
+	flex-direction: row;
+}
+.project-info {
+	padding: 60px;
+	flex-basis: 50%;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	color: white;
+	
+}
+.project-info h1 {
+	font-size: 4rem;
+	font-weight: 500;
+}
+
+.project-info p {
+	color: white;
+}
+.img1 {	
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 700px;
+	bottom: -435px;
+	right: -365px;	
+	
+}
+.img2 {	
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 700px;
+	bottom: -435px;
+	right: -365px;	
+	
+}
+.img3 {	
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 700px;
+	bottom: -435px;
+	right: -365px;	
+	
+}
+.img4 {	
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 700px;
+	bottom: -435px;
+	right: -365px;	
+	
+}
+.img5 {	
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 700px;
+	bottom: -435px;
+	right: -365px;	
+	
+}
+.img6 {	
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 700px;
+	bottom: -435px;
+	right: -365px;	
+	
+}
+.img7 {	
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 700px;
+	bottom: -435px;
+	right: -365px;	
+	
+}
+.img8 {	
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 700px;
+	bottom: -435px;
+	right: -365px;	
+	
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* End Projects section */
 
