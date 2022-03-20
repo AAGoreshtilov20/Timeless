@@ -229,7 +229,7 @@ p {
     height: 80px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     margin: auto;
 	padding-right: 100px;
     background-image: linear-gradient(60deg, 	#3c6f96 0%, #5b576e 100%);
@@ -269,6 +269,25 @@ p {
 #navBar a:hover:after{
     width: 100%;
 	transition: .3s;
+}
+
+#logo{
+	height: 80px;
+}
+
+.playbtn
+{
+	position: relative;
+    text-decoration: none;
+	background: none;
+	border: none;
+    color: #a0a0a0;
+    font-size: 18px;   
+	
+}
+.playbtn:hover
+{
+	color: white;
 }
 
 .loginbtn
@@ -324,7 +343,7 @@ p {
 	width:220px;
 	margin:35px auto;
 	position:relative;
-	box-shadow: 0 0 20px 9px #ff61241f;
+	box-shadow: 0 0 20px 9px #3A354D;
 	border-radius: 30px;
 }
 .toggle-btn
@@ -335,6 +354,7 @@ p {
 	border:0;
 	outline: none;
 	position: relative;
+	color: #fff;
 }
 #btn
 {
@@ -343,7 +363,7 @@ p {
 	position: absolute;
 	width: 110px;
 	height: 100%;
-	background: #F3C693;
+	background: linear-gradient(60deg, 	#3c6f96 0%, #5b576e 100%);
 	border-radius: 30px;
 	transition: .5s;
 }
@@ -380,7 +400,8 @@ p {
 	cursor: pointer;
 	display: block;
 	margin: auto;
-	background: #F3C693;
+	background: linear-gradient(60deg, 	#3c6f96 0%, #5b576e 100%);
+	color: #fff;
 	border: 0;
 	outline: none;
 	border-radius: 30px;
