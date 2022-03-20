@@ -6,7 +6,7 @@
 }
 html {
 	font-size: 10px;
-	
+
 	scroll-behavior: smooth;
 }
 
@@ -943,3 +943,156 @@ span
 
 /* End Footer */
 
+/* Media Query For Desktop */
+@media only screen and (max-width: 1400px) {
+
+	h1.section-title {
+		font-size: 6rem;
+	}
+
+
+	/* Project */
+	#projects .project-item {
+		flex-direction: row;
+	}
+	#projects .project-item:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+	#projects .project-item {
+		height: 400px;
+		margin-bottom: 40px;
+		width: 100%;
+		border-radius: 10px;
+	}
+	#projects .project-info {
+		width: 100%;
+		height: 100%;
+	}
+	#projects .project1{
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	#projects .project2{
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	#projects .project3{
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	#projects .project4{
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	#projects .project5{
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	#projects .project6{
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	#projects .project7{
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	#projects .project8{
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	#projects .img1 {
+		height: 100%;	
+	}
+	#projects .img2 {
+		width: 100%;
+	height: 100%;	
+	}
+	#projects .img3 {
+		height: 100%;
+	}
+	#projects .img4 {
+		height: 100%;
+	}
+	#projects .img5 {
+		height: 100%;
+	}
+	#projects .img6 {
+		height: 100%;
+	}
+	#projects .img7 {
+		height: 100%;
+	}
+	#projects .img8 {
+		height: 100%;
+	}
+	/* End Project */
+
+	/* contact  */
+	#contact .contact {
+		flex-direction: column;
+		padding: 100px 0;
+		align-items: center;
+		justify-content: center;
+		min-width: 20vh;
+	}
+	#contact .input-box {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin: 10px;
+		
+		flex-direction: row;
+	}
+	#contact .message-box {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin: 10px;
+		
+		flex-direction: row;
+	}
+	#contact .Button{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin: 10px;
+		
+		flex-direction: row;
+	}
+	
+	
+	#contact .contact-item .contact-info {
+		width: 100%;
+		text-align: left;
+		padding-left: 20px;
+	}
+	/* End contact  */
+}
+/* End Media Query For Desktop */
