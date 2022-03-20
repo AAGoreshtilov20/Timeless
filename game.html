@@ -6,30 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="text/javascript" src="JS/game.js"></script>
-    <link rel="CSS/stylesheet" href="game.css">
+    <link rel="stylesheet" href="CSS/game.css">
+
 </head>
 <body>
-       <div id = "game">
+    <nav id="navBar">
+
+        <div id="logo">
+            <h1>Timeless</h1>
+          </div>
+            
+          <a href="#carousel-container" >Home</a>
+          <a href="#services" >Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>    
+                </form>
+            </div>
+          </div>
+        </div>
+        
+    </nav> 
+    <div id = "game">
         <div id ="questionCounter">
             <h1>Въпрос № <a id ="question">1</a></h1>
         </div>
-         <div id ="allHint">
-            <p id = "a">All hints:<a id = "maxHints">6</a></p>
+    <div>
+        <div id ="allHint">
+            <p id = "a">Всички жокери:<a id = "maxHints">4</a></p>
         </div>
         <div id ="hint">
-            <p id = "b">hints:<a id = "hints">2</a></p>
+            <p id = "b">Жокери:<a id = "hints">1</a></p>
         </div>
-           <div id ="input">
-            <input id = "answer" placeholder="Въведете отговора си">
-            
+    </div>
+    <div iq="questiondiv">
+        <button class ="invis"  onclick="question()" id = "start">Старт</button>
+        <p id = "b"><a id = "questionText"></a></p>
+    </div>
+    
+    <br>
+    <br>
+        <div id ="input">
+            <input type="text" id="answer" placeholder="Въведете отговора си!">
+
         </div>
         <div id ="buttons">
-            <button onclick="getAnswer()" id = "btn">Отговори</button>
-            <button onclick="useHint()" id = "button">Помощ</button>
-            <button onclick="nextPage()" id = "button">Следващ</button>
+            <button class="buuton" onclick="getAnswer()" id = "buttons">Отговори</button>
+            <button class="buuton" onclick="useHint()" id = "buttons">Помощ</button>
+            <button class="buuton" onclick="nextPage()" id = "buttons">Следващ</button>
         </div>
         </div>
     </div>
-    
+
 </body>
 </html>
