@@ -1,7 +1,7 @@
 <h1 align="center">History and Geography Project</h1>
 <h2 align="center">Timeless</h6>
 <p align="center">
-<img src="" width="500px">
+<img src="https://cdn.discordapp.com/attachments/950443893671989328/952621584802275418/Untitled.png" width="500px">
 </p>
 
 
@@ -10,6 +10,7 @@
 * **Daniel Mihalev** - *Designer* 
 * **Nikolai Zabirov** - *Frontend Developer* 
 * **Ysmen Osman** - *Backend Developer* 
+* **Kalin Chervenkov** - *Mentor* 
 
 
 ## ![image](https://user-images.githubusercontent.com/85336805/156881807-16f8d6d6-2551-41a2-933a-18d08030bf12.png) Languages and tools:
@@ -18,6 +19,8 @@
     <img src="https://img.icons8.com/color/48/000000/html-5.png"/> 
     <img src="https://img.icons8.com/color/48/000000/css3.png"/> 
     <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"/>
+    <img src="https://img.icons8.com/material-outlined/2x/figma.png"/>
+    <img src="https://img.icons8.com/plumpy/2x/javascript.png"/>
     
 ## ![image](https://user-images.githubusercontent.com/85336805/156881781-bb34e399-798a-443f-b7a6-8f67573a7310.png) Description:
     
