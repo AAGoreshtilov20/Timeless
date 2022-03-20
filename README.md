@@ -29,3 +29,9 @@
 The site is related to history and geography. 
 In the website you can learn interesting things about the Bulgarian uprisings.
 While in the site you can play a fun game related to recognizing different countries.*
+    
+## 📎 Program Diagram:
+
+<p align="center">
+<img src="https://cdn.discordapp.com/attachments/950443893671989328/955197453458608219/block_diagram.png" width = "2500px" >
+</p>
