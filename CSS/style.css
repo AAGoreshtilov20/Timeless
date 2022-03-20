@@ -667,7 +667,175 @@ span
 	right: -365px;	
 	
 }
-
-
 /* End Projects section */
+
+/* contact section */
+#contact{
+	position: relative;
+ flex-direction: column;
+ max-width: 1200px;
+ margin: 0 auto;
+ width: 100%;
+ box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19); 
+ margin-bottom: 80px;
+}
+.content{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 25px 20px;
+
+}
+
+.topic{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 35px;
+ font-weight: 500;
+ color: black;
+ letter-spacing: 1vh;
+ margin-bottom: 45px;
+}
+.content form{
+ width: 40%;
+ margin-right: 30px;
+}
+
+.input-box{
+ height: 50px;
+ width: 100%;
+ margin: 16px 0;
+ position: relative;
+ margin-bottom: 40px;
+}
+
+.input-box input{
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ font-size: 20px;
+ outline: none;
+ padding-left: 16px;
+ border: 2px solid transparent;
+ background-color: rgba(230, 230, 230, 0.6);
+ transition: all 0.3s ease;
+}
+.input-box input:focus,
+.input-box input:valid{
+ border-color: green;
+ background-color: #fff;
+}
+.input-box label{
+ position: absolute;
+ left: 18px;
+ top: 50%;
+ transform: translateY(-50%);
+ font-size: 17px;
+ pointer-events: none;
+ color: black;
+ transition: all 0.3s ease;
+ letter-spacing: 5px;
+}
+.input-box input:focus ~ label,
+.input-box input:valid ~ label{
+ top: -15px;
+ left: 12px;
+ color: black;
+ display: 14px;
+ font-size: 12px;
+ 
+}
+
+.message-box{
+ height: 100px;
+ width: 100%;
+ position: relative;
+ margin-bottom: 40px;
+ margin: 16px 0;
+}
+.message-box textarea{
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ font-size: 20px;
+ outline: none;
+ padding-left: 16px;
+ border: 2px solid transparent;
+ background-color: rgba(230, 230, 230, 0.6);
+ transition: all 0.3s ease;
+ 
+}
+.message-box textarea:focus{
+ border-color: green;
+ background-color: #fff;
+ 
+}
+.message-box label{
+ position: absolute;
+ left: 18px;
+ top: 20%;
+ transform: translateY(-50%);
+ font-size: 17px;
+ pointer-events: none;
+ color: black;
+ transition: all 0.3s ease;
+ letter-spacing: 5px;
+ 
+}
+.message-box textarea:focus ~ label{
+ top: -15px;
+ left: 12px;
+ color: black;
+ display: 14px;
+ font-size: 12px;
+ 
+}
+
+.Button{
+ text-align: center;
+ margin-top: 30px;
+ width: 100%;
+ margin-left: -10px;
+
+}
+.btn{
+ border: 2px solid green;
+ background: none;
+ padding: 10px 20px;
+ font-size: 20px;
+ cursor: pointer;
+ margin: 10px;
+ transition: 1s;
+ position: relative;
+ overflow: hidden;
+ width: 100%;
+ letter-spacing: 5px;
+ 
+}
+.btn1{
+ color: green;
+}
+.btn1:hover{
+ color: black;
+}
+.btn::before{
+ content: "";
+ position: absolute;
+ left: 0;
+ width: 100%;
+ height: 0%;
+ background: green;
+ z-index: -1;
+ transition: 1s;
+}
+.btn1::before{
+ bottom: 0;
+ border-radius: 50% 50% 0 0;
+}
+.btn1:hover::before{
+ height: 180%;
+}
+/* End Contact section */
+
 
