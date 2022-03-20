@@ -488,8 +488,6 @@ span
 	align-items: center;
 	justify-content: center;
 	bottom: -75px;
-	left: -333px;
-	top: 0;
 }
 .project2 {
 	position: relative;
@@ -497,8 +495,6 @@ span
 	align-items: center;
 	justify-content: center;
 	bottom: -75px;
-	left: -333px;
-	bottom: -435px;
 }
 .project3 {
 	position: relative;
@@ -506,8 +502,6 @@ span
 	align-items: center;
 	justify-content: center;
 	bottom: -75px;
-	left: -333px;
-	bottom: -870px;
 }
 
 .project4 {
@@ -516,8 +510,6 @@ span
 	align-items: center;
 	justify-content: center;
 	bottom: -75px;
-	left: -333px;
-	bottom: -1305px;
 }
 .project5 {
 	position: relative;
@@ -525,8 +517,6 @@ span
 	align-items: center;
 	justify-content: center;
 	bottom: -75px;
-	left: -333px;
-	bottom: -1305px;
 }
 .project6 {
 	position: relative;
@@ -534,8 +524,6 @@ span
 	align-items: center;
 	justify-content: center;
 	bottom: -75px;
-	left: -333px;
-	bottom: -1305px;
 }
 .project7 {
 	position: relative;
@@ -543,8 +531,6 @@ span
 	align-items: center;
 	justify-content: center;
 	bottom: -75px;
-	left: -333px;
-	bottom: -1305px;
 }
 .project8 {
 	position: relative;
@@ -552,8 +538,6 @@ span
 	align-items: center;
 	justify-content: center;
 	bottom: -75px;
-	left: -333px;
-	bottom: -1305px;
 }
 
 .project-item {
@@ -590,7 +574,7 @@ span
 	color: white;
 }
 .img1 {	
-	position: absolute;
+	
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -600,17 +584,17 @@ span
 	
 }
 .img2 {	
-	position: absolute;
+	
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: 700px;
-	bottom: -435px;
+	bottom: 30px;
 	right: -365px;	
 	
 }
 .img3 {	
-	position: absolute;
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -620,7 +604,7 @@ span
 	
 }
 .img4 {	
-	position: absolute;
+	
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -630,7 +614,7 @@ span
 	
 }
 .img5 {	
-	position: absolute;
+	
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -640,7 +624,7 @@ span
 	
 }
 .img6 {	
-	position: absolute;
+	
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -650,7 +634,7 @@ span
 	
 }
 .img7 {	
-	position: absolute;
+	
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -660,7 +644,7 @@ span
 	
 }
 .img8 {	
-	position: absolute;
+	
 	display: flex;
 	align-items: center;
 	justify-content: center;
