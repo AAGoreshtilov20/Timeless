@@ -846,22 +846,45 @@ span
 #footer {
     position: relative;
 	background-image: linear-gradient(60deg, #3c6f96 0%, #5b576e 100%);
-    min-height: 200px;
+    height: 300px;
 	flex-direction: column;
 	padding-top: 50px;
 	padding-bottom: 10px;
 }
 
-.social-menu ul {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 0;
-    margin: 0;
-    display: flex;
-   
+.social-menu  h3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 3rem;
 }
+.social-menu  h4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 20px;
+	margin-top: 30px;	
+}
+
+.social-menu p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+.social-menu ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin-top: 40px;
+ }
 
 .social-menu ul li {
     list-style: none;
