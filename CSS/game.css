@@ -6,6 +6,11 @@ html {
 body	{
 	overflow-x: hidden;
 }
+#logo{
+	height: 80px;
+	padding-right:  50%;
+}
+
 
 img {
 	height: 100%;
