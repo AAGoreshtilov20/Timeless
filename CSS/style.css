@@ -515,6 +515,7 @@ span
 .project2 {
 	position: relative;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	bottom: -75px;
@@ -522,6 +523,7 @@ span
 .project3 {
 	position: relative;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	bottom: -75px;
@@ -530,6 +532,7 @@ span
 .project4 {
 	position: relative;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	bottom: -75px;
@@ -537,6 +540,7 @@ span
 .project5 {
 	position: relative;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	bottom: -75px;
@@ -544,6 +548,7 @@ span
 .project6 {
 	position: relative;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	bottom: -75px;
@@ -551,6 +556,7 @@ span
 .project7 {
 	position: relative;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	bottom: -75px;
@@ -558,6 +564,7 @@ span
 .project8 {
 	position: relative;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	bottom: -75px;
@@ -599,21 +606,23 @@ span
 .img1 {	
 	
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	width: 700px;
-	bottom: -435px;
-	right: -365px;	
+	width: 800px;
+	bottom: 30px;
+	
+	
 	
 }
 .img2 {	
 	
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	width: 700px;
+	width: 800px;
 	bottom: 30px;
-	right: -365px;	
 	
 }
 .img3 {	
@@ -621,9 +630,9 @@ span
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 700px;
-	bottom: -435px;
-	right: -365px;	
+	width: 800px;
+	bottom: 30px;
+	
 	
 }
 .img4 {	
@@ -631,9 +640,8 @@ span
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 700px;
-	bottom: -435px;
-	right: -365px;	
+	width: 800px;
+	bottom: 30px;	
 	
 }
 .img5 {	
@@ -641,9 +649,8 @@ span
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 700px;
-	bottom: -435px;
-	right: -365px;	
+	width: 800px;
+	bottom: 30px;	
 	
 }
 .img6 {	
@@ -651,9 +658,8 @@ span
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 700px;
-	bottom: -435px;
-	right: -365px;	
+	width: 800px;
+	bottom: 30px;	
 	
 }
 .img7 {	
@@ -661,9 +667,8 @@ span
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 700px;
-	bottom: -435px;
-	right: -365px;	
+	width: 800px;
+	bottom: 30px;	
 	
 }
 .img8 {	
@@ -671,9 +676,8 @@ span
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 700px;
-	bottom: -435px;
-	right: -365px;	
+	width: 800px;
+	bottom: 30px;	
 	
 }
 /* End Projects section */
